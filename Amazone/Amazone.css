@@ -4,14 +4,13 @@
   box-sizing: border-box;
   font-family: Arial;
 }
-body{
-}
+
 .navbar{
   height: 4rem;
   color:white;
   background-color:black;
 
-  border: 2px solid wheat;
+  /* border: 2px solid wheat; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -22,7 +21,7 @@ body{
   align-items: center;
   justify-content: center;
   width: 200px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .navbar .logo img{
@@ -32,28 +31,32 @@ body{
 
 /* location  */
 .location{
-  height: 80%;
-  width: 120px;
-  border: 2px solid white;
+  height: 90%;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid white; */
   
 }
 .location i{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .location a{
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-left: 5px;
 }
 .location p{
   margin-left: 15px;
-  font-size: .7rem;
+  font-size: .8rem;
   opacity: 0.7;
 }
 
 /* input section */
 .input-section{
   height: 80%;
-  width:400px;
+  width:550px;
   /* border: 2px solid white; */
   display: flex;
   align-items: center;
@@ -64,7 +67,7 @@ select,option,input,i{
   
 }
 input{
-  width: 80%;
+  width: 90%;
   font-size: 1rem;
   font-weight: bold;
   padding: .3rem;
@@ -111,4 +114,36 @@ input{
 }
 .cart-section i{
   font-size: 2rem;
+}
+
+/* panel section */
+.panel{
+  height:40px;
+  background-color: rgb(30, 45, 56);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: white;
+}
+.panel-all{
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  
+
+}
+.more-options{
+  margin-left: 1rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  
+}
+.more-options p{
+  margin-left: 1.2rem;
+}
+.more-options p:hover{
+  text-decoration: underline;
+  color:orange;
+  margin-left: 1.2rem;
 }
