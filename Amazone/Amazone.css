@@ -5,11 +5,12 @@
   font-family: Arial;
 }
 body{
-  background-color:black;
 }
 .navbar{
   height: 4rem;
   color:white;
+  background-color:black;
+
   border: 2px solid wheat;
   display: flex;
   align-items: center;
@@ -53,32 +54,37 @@ body{
 .input-section{
   height: 80%;
   width:400px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 select,option,input,i{
-  height: 80%;
+  height: 90%;
   
 }
 input{
   width: 80%;
   font-size: 1rem;
   font-weight: bold;
+  padding: .3rem;
+  outline:none;
 }
 .input-section i{
   font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: orange;
 }
 
 /* sign in section */
 .sign-in-section{
   height: 80%;
-  width: 80px;
+  width: 90px;
   font-size: .8rem;
   display: flex;
-   flex-direction: column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -91,4 +97,18 @@ input{
   display: flex;
   
   border:none;
+}
+
+/* cart section */
+.cart-section{
+  height: 80%;
+  width: 90px;
+  /* font-size: .8rem; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+.cart-section i{
+  font-size: 2rem;
 }
