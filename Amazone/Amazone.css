@@ -147,3 +147,33 @@ input{
   color:orange;
   margin-left: 1.2rem;
 }
+
+/* main section */
+.main-section{
+  background-image: url("assests/hero_image\(1\).jpg");
+  height: 60vh;
+  width: 100%;
+  /* background-position: center; */
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+
+}
+.main-section-message{
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.main-section-message p{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main-section-message p a{
+  text-decoration: none;
+}
