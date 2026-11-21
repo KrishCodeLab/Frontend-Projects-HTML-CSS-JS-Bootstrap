@@ -207,8 +207,9 @@ input{
   height: 85%;
   width: 90%;
 }
-.cart-section .box a{
-  letter-spacing: 2px;
+a{
   color:blue;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight:bold;
+  letter-spacing: 2px;
 }
